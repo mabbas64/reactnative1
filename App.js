@@ -3,10 +3,10 @@ import StackNavigator from 'react-navigation';
 import { AppRegistry, StyleSheet, Text, View, Button, Alert, ScrollView } from 'react-native';
 
 /* create a home-screen and profile screen in app */
-const App = StackNavigator({
+/*const App = StackNavigator({
   Home: { screen: HomeScreen },
   Profile: { screen: ProfileScreen },
-});
+});*/
 
 class GoodBye extends Component{
   render() {
