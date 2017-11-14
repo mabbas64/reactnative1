@@ -30,7 +30,14 @@ yarn start
 **Navigation between screens**
 
 ;;install the react-navigation library
+
+This worksed for me:
+```yarn add react-navigation```
+
+This didn't work:
 ```npm install --save react-navigation```
+
+https://github.com/react-community/react-navigation
 
 Then use StackNavigator to create the screens like:
 ```
@@ -39,6 +46,7 @@ const App = StackNavigator({
   Profile: { screen: ProfileScreen },
 });
 ```
+
 
 
 
