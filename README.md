@@ -17,6 +17,7 @@ A list of versions matched between NPM and NODE (https://nodejs.org/en/download/
 npm install -g create-react-native-app
 ```
 ; Lets create our project. I'm naming mine 'SmoothTodo'
+; if you wish to create project in another director and not in sys32 (which seems default), mkdir and cd to that dir before running below command
 ```
 create-react-native-app SmoothTodo
 ```
